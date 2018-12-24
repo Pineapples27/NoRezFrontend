@@ -1,3 +1,5 @@
+# NoRez: Frontend
+
 This is a React project.
 
 Please make sure you have Node.js and Npm installed on your local environment.
