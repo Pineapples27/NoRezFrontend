@@ -1,0 +1,80 @@
+@import './colors.styles';
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.25vw;
+  text-shadow: 0.1vw 0.1vw 0.4vw $black_one_100;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1vw;
+  text-shadow: 0.1vw 0.1vw 0.4vw $black_one_100;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  text-shadow: 0.1vw 0.1vw 0.4vw $black_one_100;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.75vw;
+  text-shadow: 0.1vw 0.1vw 0.4vw $black_one_100;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.675vw;
+  line-height: 1.5;
+  text-shadow: 0.1vw 0.1vw 0.4vw $black_one_100;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.675vw;
+  text-shadow: 0.1vw 0.1vw 0.4vw $black_one_100;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1vw;
+  text-shadow: 0.1vw 0.1vw 0.4vw $black_one_100;
+  user-select: none;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+svg {
+  stroke-width: 0.05vw;
+  filter: drop-shadow(0.1vw 0.1vw 0.1vw $black_one_100);
+  user-select: none;
+}
