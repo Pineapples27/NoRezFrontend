@@ -64,7 +64,6 @@ export default class NavigationBar extends Component {
   }
 
   navigateTo(route) {
-          console.warn("route:", route);
     this.props.history.push(route.route);
   }
 
@@ -74,8 +73,6 @@ export default class NavigationBar extends Component {
     // const previousTypePath = getPathForType(previousLocation);
     const currentPath = getPathForLocation(location);
     // const currentTypePath = getPathForType(location);
-    console.warn("previousLocations: ", previousLocation);
-    console.warn("currentPath:", currentPath);
     if (previousPath !== currentPath) {
       // this.handleShowNavigationBar(true);
       if (_.some(route.navigationBarItems, ['route', currentPath])) {
