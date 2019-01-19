@@ -30,8 +30,8 @@ export default class NavigationBar extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <NavItem eventKey={1} href="#">
-              Podcasts
+            <NavItem eventKey={1} onClick={()=>this.navigateTo(route.navigationItems.media)}>
+              Media
             </NavItem>
             <NavItem eventKey={2} href="#">
               News

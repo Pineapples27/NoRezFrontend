@@ -33,7 +33,8 @@ export default class CarouselView extends Component {
     ];
     return (
       <div>
-        <Slider className="slider-wrapper">
+        <Slider
+          className="slider-wrapper" autoplay={1000}>
           {content.map((item, index) => (
             <div
               key={index}
