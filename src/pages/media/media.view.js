@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import SearchBarView from "../../sub-components/search-bar/search-bar.view";
+import SearchResultsView from "../../sub-components/search-results/search-results.view";
 
 export default class MediaView extends Component {
   constructor(props) {
@@ -14,13 +15,16 @@ export default class MediaView extends Component {
   }
 
   render(){
-    const {searchValue, loadSearchChannelByUsername} = this.props;
+    const {searchValue, loadSearchChannelByUsername, searchResponse} = this.props;
     return(
       <div>
         <h1>Media View</h1>
         <SearchBarView
           value={searchValue}
           onChange={loadSearchChannelByUsername}
+        />
+        <SearchResultsView
+          searchResponse={searchResponse != null ? searchResponse.items : null}
         />
       </div>
     )

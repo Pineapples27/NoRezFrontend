@@ -1,0 +1,18 @@
+@import '../../assets/styles/colors.styles';
+
+.custom-scroll-bar-wrapper {
+    .scroll-bar-vertical {
+        .scroll-thumb-vertical {
+            z-index: 100000;
+            cursor: pointer;
+            border-radius: inherit;
+            background-color: $white_three_20;
+            transition: background-color 250ms ease-in-out;
+            box-shadow: 0.1vw 0.2vw 0.8vw $black_two_100;
+            &:hover,
+            &:active {
+                background-color: $shamrock_green_100;
+            }
+        }
+    }
+}
